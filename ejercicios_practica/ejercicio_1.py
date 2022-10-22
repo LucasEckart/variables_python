@@ -21,8 +21,7 @@ numero_2 = 7
 # Imprimir en pantalla el resultado de la suma
 # print(....)
 
-suma = numero_1 + numero_2
-print("El resultado de la suma es:", suma)
+
 
 # Repita el procedimiento para realizar la resta
 # Crear una variable llamada resta donde se 
@@ -30,6 +29,9 @@ print("El resultado de la suma es:", suma)
 
 
 # Imprimir en pantalla el resultado de la resta
+
+suma = numero_1 + numero_2
+print("El resultado de la suma es:", suma)
 
 resta = numero_1 - numero_2
 print("El resultado de la resta es:", resta)
