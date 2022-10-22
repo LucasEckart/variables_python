@@ -44,5 +44,23 @@ Alumno:
   en esas variables
 '''
 
+from tkinter import N
+
+
 print('¡Nuestra primera calculadora!')
 # Empezar aquí la resolución del ejercicio
+
+numero_1 = float(input("Ingrese el numero uno:" ))
+numero_2 = float(input("Ingrese el número dos:" ))
+
+suma = numero_1 + numero_2
+resta =  numero_1 - numero_2
+multiplicacion = numero_1 * numero_2
+divicion = numero_1 / numero_2
+potencia = numero_1**numero_2
+
+print("El resultado de la suma es: ", suma , "\n"
+      "El resultado de la resta es:", resta, "\n"
+      "El resultado de la multiplicación es:", multiplicacion, "\n"
+      "El resultado de la divición es:", divicion, "\n"
+      "El resultado de la potencia es:", potencia, "\n")

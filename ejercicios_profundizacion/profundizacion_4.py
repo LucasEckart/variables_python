@@ -17,7 +17,7 @@
 Enunciado:
 El objetivo es realizar un programa que determine
 cual sería el apellido de una persona
-al ingresara los dos nombres completos de sus padres/madres/tutores.
+al ingresar los dos nombres completos de sus padres/madres/tutores.
 (un solo nombre y un solo apellido en cada caso)
 En definitiva se solicita crear una variable nueva que reuna
 los dos apellidos.
@@ -29,6 +29,10 @@ los dos apellidos.
 - Luego formar el nombre completo del hijo/a utilizando los apellidos
   de sus padres/madres/tutores y el nombre del hijo/a
 - Imprimir en pantalla el resultado
+
+'''
+
+'''
 
 NOTA: Para extraer el apellido del nombre completo recomendamos usar
 el método "split"
@@ -81,3 +85,13 @@ Alumno:
 
 print('Jugando con texto')
 # Empezar aquí la resolución del ejercicio
+
+nombre_completo_1 = str(input("Ingrese el primer nombre:"))
+nombre_completo_2 = str(input("Ingrese el segundo nombre:"))
+nombre = str(input("Ingrese el nombre del hijo:"))
+
+nombre_1, apellido_1 = nombre_completo_1.split()
+nombre_2, apellido_2 = nombre_completo_2.split()
+
+hijo = nombre  + " " + apellido_1 + " " + apellido_2
+print("El nombre completo del hijo es:", hijo)
