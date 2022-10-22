@@ -18,20 +18,36 @@ numero_2 = int(input('Ingrese por consola el segundo número entero a operar:'))
 # Alumno: Imprima en pantalla los dos números enteros solicitados
 # print(....)
 
+print("El número uno es:", numero_1)
+print("El número dos es:", numero_2)
+
 # Alumno: Calcule la suma, resta, división y multiplicación
 # de los números ingresados numero_1, numero_2
+
 
 # Crear una variable llamada suma donde se 
 # almacene el valor de la suma de las variable numero_1 y numero_2
 
+suma = numero_1 + numero_2
+print("El resultado de la suma es", suma)
+
 # Crear una variable llamada resta donde se 
 # almacene el valor de la resta de numero_1 menos numero_2
+
+resta = numero_1 - numero_2
+print("El resultado de la resta es:", resta)
 
 # Crear una variable llamada division donde se 
 # almacene el valor de la division de numero_1 dividido numero_2
 
+divicion = numero_1 / numero_2
+print("El resultado de la divición es:", divicion)
+
 # Crear una variable llamada multiplicacion donde se 
 # almacene el valor de la multiplicacion de numero_1 por numero_2
+
+multiplicacion = numero_1 * numero_2
+print("El resultado de la multiplicacion es:", multiplicacion)
 
 
 # Imprima en pantalla todos los resultados

@@ -27,3 +27,6 @@ palabra_2 = str(input('Ingrese palabra 2:'))
 
 
 # Imprima en pantalla la variable palabra_combinada
+
+palabra_combinada = palabra_1[:3] + palabra_2[:2]
+print(palabra_combinada)
